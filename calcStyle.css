@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.calcHolder {
+    display: flex;
+    align-items: center;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    border: 5px solid green;
+    background-color: rgb(119, 212, 27);
+    justify-content: space-around;
+    align-items: center;
+}
+.display {
+    background-color: gray;
+    height: 50px;
+    width: 300px;
+    
+}
+.numberButtons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    padding: 10px;
+}
+.num {
+    color: white;
+    background-color: black;
+}
